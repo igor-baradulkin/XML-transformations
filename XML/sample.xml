@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+ <root>
+  <table name="Table" schema="sch_tab">
+	<Columns>
+		<column name="Salary" type="integer" /> 
+	</Columns>
+  </table>
+  <table name="Table1" schema="sch_tab">
+	<Columns>
+	</Columns>
+  </table>
+  <table name="Table2" schema="sch_tab">
+	<Columns>
+		<column name="sch_tab" /> 
+		<column name="Id" type="integer"/> 
+		<Column NeedDepend="1" name="contactinflcomments">
+			<DataType name="TEXT" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(4000)"/>
+		</Column>
+		<Column NeedDepend="1" name="expregjacksonville">
+			<DataType name="int" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(500)"/>
+		</Column>
+		<Column NeedDepend="1" name="feelingtowardsresponsetime">
+			<DataType name="int" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(500)"/>
+		</Column>
+		<Column NeedDepend="1" name="Table2">
+			<DataType name="TEXT" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(500)"/>
+		</Column>
+	</Columns>
+  </table>
+  <table name="Table3" schema="sch_tab">
+	<Columns>
+	<column name="Id" type="int"/> 
+	<Column NeedDepend="1" name="Table3">
+		<DataType name="TEXT" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(4000)"/>
+	</Column>
+	<Column NeedDepend="1" name="expregjacksonville">
+		<DataType name="integer" type="VARCHAR" length="1073741824" completeName="TEXT" NeedDepend="1" UserType="0" target="VARCHAR2(500)"/>
+	</Column>
+	</Columns>
+  </table>
+  <table name="Table4" schema="sch_tab">
+	<Columns>
+	   <column name="sch_tab" /> 
+	   <column name="Id" type="integer"/> 
+	</Columns>
+  </table>
+  <table name="Table5" schema="sch_tab">
+   <column name="sch_tab" /> 
+   <column name="Id" type="int"/> 
+  </table>
+ </root>
